@@ -4,9 +4,11 @@ const Forgotpassword = () => {
   return (
     <div>
       <div>
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 mt-8 border border-blue-500 bg-lime-200">
           <div className="mx-auto max-w-lg text-center">
-            <h1 className="text-2xl font-bold sm:text-3xl">Forgot your password!!</h1>
+            <h1 className="text-2xl font-bold sm:text-3xl">
+              Forgot your password!!
+            </h1>
           </div>
 
           <form action="#" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
