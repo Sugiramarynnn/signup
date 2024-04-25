@@ -3,8 +3,8 @@ import React from 'react'
 const Signup = () => {
   return (
     <div>
-      <section className="bg-amber-950">
-        <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
+      <section className="bg-white">
+        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
             <div className="max-w-xl lg:max-w-3xl">
               <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
@@ -98,10 +98,9 @@ const Signup = () => {
 
                   <p className="mt-4 text-sm text-gray-500 sm:mt-0">
                     Already have an account?
-                    <a href="#" className="text-gray-700 underline">
-                      Log in
+                    <a href="./Signin" className="text-gray-700 underline">
+                      Sign In
                     </a>
-                    .
                   </p>
                 </div>
               </form>
