@@ -29,15 +29,13 @@ const Signup = () => {
       errors.lastName = "Last name is required";
     }
     if (!formData.email.trim()) {
-      errors.email = "Email is required";
+      errors.email = "@gmail.com";
     }
     if (formData.password.length < 8) {
       errors.password = "Password must be at least 8 characters long";
     }
     setErrors(errors);
 
-    // If there are no errors, you can submit the form here
-    // Example: call an API to register the user
   };
 
   return (
@@ -165,7 +163,7 @@ const Signup = () => {
                   </button>
                   <p className="mt-4 text-sm text-gray-500 sm:mt-0">
                     Already have an account?
-                    <a href="./Signin" className="text-gray-700 underline">
+                    <a href="/" className="text-gray-700 underline">
                       Sign In
                     </a>
                   </p>

@@ -11,7 +11,7 @@ const Signin = () => {
       setError("Please enter both email and password.");
       return;
     }
-    // Continue with your sign-in logic here
+   
   };
 
   return (
@@ -78,7 +78,7 @@ const Signin = () => {
               type="submit"
               className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
             >
-              Sign in
+              <a href="./Confirmationpage">Sign in</a>
             </button>
           </div>
         </form>
